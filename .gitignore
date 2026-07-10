@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Secrets & environment
+.env
+.env.local
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build output
+dist/
+.next/

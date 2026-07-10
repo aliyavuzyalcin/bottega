@@ -7,3 +7,5 @@ Stack:
 - Next.js
 - Node
 - PostgreSQL.
+
+*GETTING STARTED* -> Git has been tested with this line.

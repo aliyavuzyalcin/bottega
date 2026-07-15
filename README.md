@@ -13,3 +13,5 @@ Stack:
 ## How to Start Bottega?
 
 Well, it is easy. Just open *index.html* .
+
+Copyright © by yavuz

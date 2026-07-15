@@ -9,3 +9,7 @@ Stack:
 - PostgreSQL.
 
 *GETTING STARTED* -> Git has been tested with this line.
+
+## How to Start Bottega?
+
+Well, it is easy. Just open *index.html* .

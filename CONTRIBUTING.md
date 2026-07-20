@@ -16,3 +16,45 @@ Good examples:
 Add product card markup
 Fix footer navigation link
 Update README setup section
+```
+
+Weak examples:
+
+```bash
+changes
+update
+fix stuff
+```
+
+## Branch Naming
+
+Branch names should be short, descriptive, and related to the work being done.
+
+Use lowercase words separated with hyphens.
+
+Good examples:
+
+```bash
+docs-contributing
+feature-footer-year
+fix-readme-heading
+```
+
+## Course Commit/Tag Convention
+
+Each completed course should be committed and pushed to GitHub.
+
+For content or build courses, the completed version should also be tagged with the course number.
+
+Example:
+
+```bash
+git add .
+git commit -m "Complete course 1.1"
+git push
+
+git tag course-1.1
+git push origin course-1.1
+```
+
+This convention makes each course milestone easy to find in the Git history and on GitHub.

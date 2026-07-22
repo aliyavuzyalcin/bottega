@@ -2,7 +2,7 @@
  <!doctype html>
  <html lang="it">
    
-<!-- head content goes here. It says "the characters will be displayed is UTF-8" and it will display everything with divice width.
+ <!-- head content goes here. It says "the characters will be displayed is UTF-8" and it will display everything with divice width.
  It is also talking about the site's title & description. -->
     <head>
         <meta charset="UTF-8">
@@ -11,23 +11,67 @@
         <meta name="description" content="Ceramica, pelletteria e tessuti artigianali dalle migliori botteghe italiane.">
     </head>
 
-<!-- main content goes here. The user will see this when they visit the page -->
+ <!-- main content goes here. The user will see this when they visit the page -->
     <body>
 
         <header>
+            <a href="/" class="logo">Bottega</a>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ceramica">Ceramica</a></li>
+                    <li><a href="/pelletteria">Pelletteria</a></li>
+                    <li><a href="/tessuti">Tessuti</a></li>
+                </ul>
+            </nav>
 
         </header>
 
         <main>
+            <section>
+                <h1>Benvenuti in Bottega</h1>
+                <p>Scopri l'artigianato italiano fatto a mano.</p>
 
+                <section aria-label="In Evidenza">
+                    <h2>In Evidenza</h2>
+                    <p>Scopri i nostri prodotti in evidenza.</p>
+                    <ul class="product-grid">
+                        <li>
+                            <article>
+                                <a href="/prodotti/vaso-deruta">
+                                    <img source="https://picsum.photos/200/300?grayscale" 
+                                    alt="Vaso in ceramica di Deruta, motivi blu e gialli"
+                                    width="400" height="400">
+                                    <h3>Vaso in ceramica di Deruta</h3>
+                                </a>
+                                <p class="price">€89,99</p>
+                                <button type="button">Aggiungi al carrello</button>
+                            </article>
+                        </li>
+                         <!-- more products -->
+                    </ul>        
+                </section>
+            </section>
+            
         </main>
 
         <footer>
-
+            <p>2026 &copy; Bottega. Artigianato italiano.</p>
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/ceramica">Ceramica</a></li>
+                    <li><a href="/pelletteria">Pelletteria</a></li>
+                    <li><a href="/tessuti">Tessuti</a></li>
+                </ul>
+            </nav>
+            <nav aria-label="Legal-Company">
+                <ul>
+                    <li><a href="/#">Privacy Policy</a></li>
+                    <li><a href="/#">Termini e Condizioni</a></li>
+                    <li><a href="/#">Contatti</a></li>
+                </ul>
+            </nav>
         </footer>
-
-
-
     </body>
-
  </html>
